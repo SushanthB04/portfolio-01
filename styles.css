@@ -1,0 +1,249 @@
+
+     
+        
+        nav {
+            display: flex;
+            margin: auto;
+            flex: 1flex;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 10px;
+            
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            
+            margin-left: 30px;
+            padding-right: 50px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            transition: bottom 1s;
+        }
+
+        nav ul li a:hover {
+            color: red;
+            position: relative;
+
+            bottom: 2px;
+           
+        }
+
+        .name {
+            margin-left: 14%;
+            margin-top: 15%;
+            margin-bottom: 10%;
+        }
+
+        .name h1 {
+            font-size: 50px;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .name a {
+            background-color: black;
+            padding: 10px 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            display: inline-block;
+            margin: 30px;
+            border-radius: 5px;
+
+        }
+
+        .name a:hover {
+            background-color: white;
+            color: black;
+
+
+        }
+
+        Span {
+            color: orange;
+        }
+
+        .images {
+            width: 45%;
+            height: 77%;
+            position: absolute;
+            bottom: 0;
+            right: 100px;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .images img {
+
+            position: absolute;
+            left: 55%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s, left 1s;
+        }
+
+        .images:hover .shape {
+            bottom: 40px;
+
+        }
+
+        .images:hover .boy {
+            left: 45%;
+        }
+
+        .ap {
+
+            padding: 50px 50px 50px 50px;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+            font-size: 20px;
+
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-image: linear-gradient (to right, rgba(0, 0, 0, 0), cornflowerblue, rgba(0, 0, 0, 0));
+        }
+
+
+
+        .insta {
+            font-size: 40px;
+            padding: 50px;
+
+            text-decoration: none;
+
+        }
+
+        .insta:hover {
+            bottom: 4px;
+            transition: left 1s;
+            position: relative;
+        }
+
+        #insta {
+            height: 50px;
+        }
+
+        .fotter {
+            padding-left: 300px;
+        }
+
+        .fotter h1 {
+            text-align: center;
+            padding-right: 200px;
+        }
+
+        .fotter h2 {
+            text-align: center;
+            padding-right: 200px;
+        }
+
+        .fotter p {
+            text-align: center;
+            padding: 10px 200px 10px 0px;
+            font-size: 20px;
+        }
+
+        .fotter-links {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .mm {
+            padding-top: 3%;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .ap {
+            padding: 50px 50px 50px 50px;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;     
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            font-size: 20px;
+        }
+
+        .boy {
+            padding-bottom: 78px;
+            width: 50%;
+
+        }
+
+
+        #services {
+            padding: 30px 0;
+        }
+
+        .services-list {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 40px;
+            margin-top: 50px;
+        }
+
+        .services-list div {
+            background: #262626;
+            padding: 100px 100px;
+
+            font-size: 13px;
+            font-weight: 300;
+            border-right: 10px;
+            transition: background 0.5s, transform 0.5s;
+        }
+
+        .services-list div i {
+            font-size: 50px;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+
+        .services-list div h2 {
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            color: #fff;
+
+        }
+
+        .services-list div p {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .services-list div a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 12px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .services-list div:hover {
+            background: rgb(245, 116, 3);
+            transform: translateY(-10px);
+        }
+
+        .sub-title {
+            text-align: center;
+        }
+       
